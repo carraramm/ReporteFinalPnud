@@ -9,7 +9,7 @@ Las coberturas de 1993, 1995, 1997 y 2000 fueron realizadas con base a imágenes
 -Productos Madmex (Breve descripción de cada producto)
 
 Tabla de Productos (síntesis de productos): 
-Satélite fuente, Resolución, Año, Escala, Tiempo de procesamiento
+Satélite fuente, Resolución, Año, Escala, Tiempo de procesamiento, Error
 
 -Método (cómo se obtienen los productos)
 
