@@ -1,0 +1,65 @@
+--- 
+title: "Sistema Integral de Monitoreo de Biodiversidad y Degradación, Comisión Nacional de Áreas Naturales Protegidas"
+author: "Dirección General de Proyectos Interinstitucionales"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: #bookdown::gitbook
+bookdown::pdf_book: default
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+description: "Reporte final PNUD-CONANP Resiliencia"
+---
+
+# Resúmen Ejecutivo
+
+
+
+```{r eval=FALSE,echo=FALSE}
+
+#This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports, e.g., a math equation $a^2 + b^2 = c^2$.
+
+#The **bookdown** package can be installed from CRAN or Github:
+
+
+install.packages("bookdown")
+library(bookdown)
+# or the development version
+# devtools::install_github("rstudio/bookdown")
+install.packages(tinytex)
+library(tinytex)
+tinytex::install_tinytex()
+
+```
+
+Remember each Rmd file contains one and only one chapter, and a chapter is defined by the first-level heading `#`.
+
+To compile this example to PDF, you need XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): <https://yihui.name/tinytex/>.
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```
+
+
+
+
+Este documento se ha creado el marco del proyecto Fortalecimiento de la Efectividad del Manejo y la Resiliencia de las Áreas Naturales Protegidas para Proteger la Biodiversidad Amenazada por el Cambio Climático, implementado por el Programa de las Naciones Unidas para el Desarrollo (PNUD), ejecutado por la Comisión Nacional de Áreas Naturales Protegidas (CONANP) y financiado por el Fondo para el Medio Ambiente Mundial (GEF) por sus siglas en inglés.
+
+Sistema Integral de Monitoreo de Biodiversidad y Degradación, Comisión Nacional de Áreas Naturales Protegidas
+
+Derechos Reservados © 2018
+Programa de las Naciones Unidas para el Desarrollo (PNUD)
+Montes Urales 440
+Col. Lomas de Chapultepec, Del. Miguel Hidalgo C.P.11000, Ciudad de México.
+
+Todos los derechos están reservados. Ni esta publicación ni partes de ella pueden ser reproducidas, almacenadas mediante cualquier sistema o transmitidas, en cualquier forma o por cualquier medio, sea éste electrónico, mecánico, de fotocopiado, de grabado o de otro tipo, sin el permiso previo del Programa de las Naciones Unidas para el Desarrollo.
+
+Esta publicación fue realizada en el marco del proyecto 00087099 “Fortalecimiento de la efectividad del manejo y la resiliencia de las áreas naturales protegidas para proteger la biodiversidad amenazada por el cambio climático”. El análisis y las conclusiones aquí expresadas no reflejan necesariamente las opiniones del Programa de las Naciones Unidas para el Desarrollo, de su Junta Ejecutiva, ni de sus Estados Miembros.
+
+El PNUD forja alianzas con todos los niveles de la sociedad para ayudar a construir naciones que puedan resistir las crisis; promueve y sostiene un tipo de crecimiento que mejora la calidad de vida de todos. Presentes sobre el terreno, en cerca de 170 países y territorios, ofrecemos una perspectiva global y un conocimiento local al servicio de las personas y las naciones.
+
